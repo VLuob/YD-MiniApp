@@ -1,0 +1,44 @@
+<!--pages/detail/detail.wxml-->
+<view class="head">
+  <image class="banner" />
+  <view class="main">
+    <view class="title">莅临饭大使枫树不惧巴子陨石莅临饭大使枫树不惧巴子陨石</view>
+    <view class="price"> ￥56.00</view>
+    <view class="bot">
+      <text class="txt">永久有效</text>
+      <view class="look">
+        <image src="/img/0.jpg" />
+        <text>12.5W</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="vip">
+  <text>优惠</text>
+  <text>VIP免费</text>
+</view>
+<view class="vip membeer">
+  <view>VIP会员优惠</view>
+  <view class="free ">
+    <text>立即开通 ></text>
+    <image class="to" />
+  </view>
+</view>
+<view class='srrvice'>服务详情</view>
+<view style="height:1000rpx;">详情图</view>
+<view style="height:98rpx;"></view>
+<view class="purchase">
+  <view class="left">
+    <view class="friend">
+      <image src="/img/0.jpg" />
+      <text>邀请好友</text>
+    </view>
+    <view>
+      <image src="/img/1.jpg" />
+      <text>喜欢</text>
+    </view>
+  </view>
+  <view class="right">
+    立即购买
+  </view>
+</view>

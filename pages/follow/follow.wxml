@@ -1,0 +1,6 @@
+<!--pages/follow/follow.wxml-->
+<view class="box">
+  <image src="{{tempFilePath}}" class="img" />
+  <view class="txt">扫码关注易道文化培训公众号</view>
+  <view bindtap="saveImageToPhotosAlbum" class="btn">保存二维码图片</view>
+</view>

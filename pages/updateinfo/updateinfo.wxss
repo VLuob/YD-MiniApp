@@ -1,0 +1,100 @@
+/* pages/updateinfo/updateinfo.wxss */
+
+input {
+  height: 110rpx;
+  width: 100%;
+  font: 28rpx/110rpx '';
+  color: #333;
+  padding-left: 32rpx;
+  box-sizing: border-box;
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.btn {
+  height: 80rpx;
+  width: 500rpx;
+  background: #ff8c01;
+  border-radius: 10rpx;
+  text-align: center;
+  font: 30rpx/80rpx '';
+  color: #fff;
+  margin: 79rpx auto 0;
+}
+
+.info {
+  height: 110rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 34rpx;
+  box-sizing: border-box;
+  background: #fff;
+  margin-bottom: 2rpx;
+}
+
+.info .icon {
+  font: 28rpx '';
+  color: #333;
+}
+
+.info .user {
+  display: flex;
+  align-items: center;
+}
+
+.info .user image {
+  height: 20rpx;
+  width: 11rpx;
+  margin-left: 18rpx;
+}
+
+.info .user view {
+  font: 24rpx '';
+  color: #999;
+}
+
+.sel {
+  height: 40rpx;
+  width: 40rpx;
+  border-radius: 50%;
+  border: 2rpx solid #999;
+}
+
+.active {
+  background: #ff8c01;
+}
+
+.num {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.num .ch {
+  width: 30%;
+  font: 28rpx '';
+  text-align: center;
+}
+
+.num .ipt {
+  height: 110rpx;
+  width: 70%;
+  color: #999;
+  padding-left: 40rpx;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.color {
+  color: #ff8c01;
+}
+
+.num .line {
+  height: 52rpx;
+  width: 2rpx;
+  background: #eaeaea;
+}

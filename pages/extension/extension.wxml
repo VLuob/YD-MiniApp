@@ -1,0 +1,5 @@
+<!--pages/extension/extension.wxml-->
+<view class="box">
+  <image src="{{tempFilePath}}" class="img" />
+  <view bindtap="saveImageToPhotosAlbum">保存到手机</view>
+</view>

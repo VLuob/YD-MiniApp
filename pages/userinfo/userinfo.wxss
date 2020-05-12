@@ -1,0 +1,38 @@
+/* pages/userinfo/userinfo.wxss */
+
+.info {
+  height: 110rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 34rpx;
+  box-sizing: border-box;
+  background: #fff;
+  margin-bottom: 2rpx;
+}
+
+.info .icon {
+  font: 28rpx '';
+  color: #333;
+}
+
+.info .user {
+  display: flex;
+  align-items: center;
+}
+
+.info .user image {
+  height: 20rpx;
+  width: 11rpx;
+  margin-left: 18rpx;
+}
+
+.info .user view {
+  font: 24rpx '';
+  color: #999;
+}
+
+.margin {
+  margin-top: 10rpx;
+}

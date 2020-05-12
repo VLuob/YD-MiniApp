@@ -1,0 +1,8 @@
+<!--pages/learn/learn.wxml-->
+<image class="pic" src="" />
+<view class="introduce">
+  <view>名师介绍</view>
+  <text>李林凡大师,</text>
+  <text>精通风水布局、八字运势，</text>
+  <text>易居阴阳历等各项占卜。</text>
+</view>

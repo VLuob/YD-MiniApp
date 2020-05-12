@@ -1,0 +1,58 @@
+/* pages/login/login.wxss */
+
+page {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+
+.img {
+  height: 798rpx;
+  width: 750rpx;
+  position: relative;
+  top: 120rpx;
+}
+
+.bg {
+  position: fixed;
+  height: 510rpx;
+  width: 750rpx;
+  background: #fff;
+  bottom: 0;
+  border-radius: 20rpx 20rpx 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 110rpx;
+  box-sizing: border-box;
+  box-shadow: 0 0 14rpx rgba(155, 155, 155, 0.15);
+}
+
+.bg .phone {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 50rpx;
+}
+
+.bg text {
+  font: 30rpx/2"";
+  color: #333;
+  font-weight: Medium;
+}
+
+.bg button {
+  height: 80rpx;
+  width: 260rpx;
+  background: #45aa30;
+  border-radius: 8rpx;
+  font: 28rpx/2 "";
+  color: #fff;
+  margin-top: 105rpx;
+}
+
+.bg .cancel {
+  width: 260rpx;
+  background: #eee;
+  margin-right: 60rpx;
+}

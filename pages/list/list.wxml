@@ -1,0 +1,101 @@
+<!--pages/list/list.wxml-->
+<!-- 我的推荐 E -->
+<view wx:if="{{to.id==0}}">
+  <view class="lists">
+    <image src="/img/1.jpg" />
+    <view>
+      <text>Am</text>
+      <text>ID:JUMA52301</text>
+    </view>
+  </view>
+</view>
+<!-- 我的推荐 S -->
+
+<!-- 收入明细 E -->
+<view wx:if="{{to.id==1}}">
+  <view class="lists">
+    <view>
+      <text>Am</text>
+      <text>ID:JUMA52301</text>
+    </view>
+    <view class="cash1">+1.00</view>
+  </view>
+</view>
+<!-- 收入明细 S  -->
+
+<!-- 已提现 E -->
+<view wx:if="{{to.id==2}}">
+  <view class="lists">
+    <view>
+      <text>Am</text>
+      <text>ID:JUMA52301</text>
+    </view>
+    <view class="cash1">-1.00</view>
+  </view>
+</view>
+<!-- 已提现 S  -->
+
+<!-- 绑定银行卡  E-->
+<view wx:if="{{to.id==4}}">
+  <text class='tip'>请填写持卡人本人的银行卡</text>
+  <view class='bindcard'>
+    <text>卡类型</text>
+    <picker bindchange="bindCardChange" value="{{index}}" range="{{array}}" class="picker">
+      <view>{{ cardtype || "请选择卡类型"}}</view>
+    </picker>
+  </view>
+  <view class='bindcard'>
+    <text>所在地</text>
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}" class="picker">
+      <view wx:if="{{region.length>0}}">{{ region}}</view>
+      <view wx:else>请选择卡地址</view>
+    </picker>
+  </view>
+  <view class='bindcard margin'>
+    <text>支行名称</text>
+    <input placeholder="请输入支行名称" />
+  </view>
+  <view class='bindcard margin'>
+    <text>卡号</text>
+    <input placeholder="请输入卡号" />
+  </view>
+  <view class='bindcard margin'>
+    <text>持卡人</text>
+    <input placeholder="请输入持卡人" />
+  </view>
+  <view class='bindcard margin'>
+    <text>手机号</text>
+    <input placeholder="请输入预留手机号" />
+  </view>
+  <view class="btn">提交</view>
+</view>
+<!-- 绑定银行卡  S-->
+
+<!-- 余额提现 start -->
+<view wx:if="{{to.id==3}}">
+  <view class="panel">
+    <view class='card'>
+      <view>到账银行卡</view>
+      <view class="bank">
+        <view class="bank_card">
+          <image src="/img/1.jpg" />
+          <text>工商银行卡(0216)</text>
+        </view>
+        <text class="txt">2小时内到账</text>
+      </view>
+    </view>
+    <view class='cash'>
+      <text class="text">提现金额</text>
+      <view class="balance">
+        <text>￥</text>
+        <input value="{{cash}}" />
+      </view>
+      <view class="money">
+        <text>当前零钱余额{{balance}}元，</text>
+        <view bindtap="cashwidthdrawal">全部提现</view>
+      </view>
+    </view>
+  </view>
+  <view class="btn">提现</view>
+</view>
+<!-- 余额提现 end -->

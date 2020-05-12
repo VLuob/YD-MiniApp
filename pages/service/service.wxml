@@ -1,0 +1,20 @@
+<!--pages/service/service.wxml-->
+<view class="sliderbar">
+  <view class="tab" style="height:{{height}}rpx">
+    <view class="{{activeKey===index?'active tab_list':'tab_list'}}" wx:for="{{tab}}" wx:key='index' bindtap="clicktab" data-index="{{index}}">
+      <view class="line" wx:if="{{activeKey===index}}"></view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+  <view class="content" wx:for="{{content}}" wx:key='index' wx:if='{{activeKey===index}}' data-index="{{index}}">
+    <view wx:for="{{item.child}}" wx:key='index'>
+      <view class="title">{{item.title}}</view>
+      <view class="box">
+        <view class="shop" wx:for='{{item.list}}' wx:key='index'>
+          <image src="{{item.url}}" />
+          <text>{{item.name}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

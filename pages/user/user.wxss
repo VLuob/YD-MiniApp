@@ -1,0 +1,149 @@
+/* pages/user/user.wxss */
+
+.bg {
+  height: 294rpx;
+  background: #ff8c01;
+  border-radius: 0 0 60rpx 60rpx;
+  position: relative;
+}
+
+.info {
+  background: #fff;
+  height: 422rpx;
+  width: 682rpx;
+  border-radius: 20rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info .icon {
+  height: 130rpx;
+  width: 130rpx;
+  border-radius: 50%;
+  margin-top: 20rpx;
+}
+
+.info .name {
+  display: Flex;
+  margin: 18rpx 0;
+  align-items: center;
+}
+
+.info .name .star {
+  width: 38rpx;
+  height: 31rpx;
+  margin-left: 13rpx;
+}
+
+.info .name text {
+  font: 600 36rpx '';
+  color: #333;
+}
+
+.info .user {
+  font: 22rpx '';
+  color: #666;
+}
+
+.tab {
+  height: 150rpx;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.tab .list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab .line {
+  width: 2rpx;
+  height: 52rpx;
+  background: #eaeaea;
+}
+
+.tab .list image {
+  height: 42rpx;
+  width: 42rpx;
+}
+
+.tab .list text {
+  font: 24rpx '';
+  color: #333;
+  margin-top: 19rpx;
+}
+
+.income {
+  height: 222rpx;
+  width: 682rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  position: relative;
+  top: 188rpx;
+  margin: 0 auto;
+}
+
+.income .nav {
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 81rpx;
+  border-bottom: 2rpx solid #eaeaea;
+}
+
+.income .nav .txt {
+  font: 28rpx '';
+  color: #333;
+}
+
+.income .nav .more {
+  display: flex;
+  align-items: center;
+}
+
+.income .nav .more text {
+  font: 20rpx '';
+  color: #999;
+}
+
+.income .nav .more image {
+  height: 20rpx;
+  width: 9rpx;
+  margin-left: 11rpx;
+}
+
+.income .box {
+  height: 140rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.income .box view {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.income .box view text:nth-child(1) {
+  font: 600 36rpx '';
+  color: #f04848;
+}
+
+.income .box view text:nth-child(2) {
+  font: 20rpx '';
+  color: #666;
+  margin-top: 19rpx;
+}

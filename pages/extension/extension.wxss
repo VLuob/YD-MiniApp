@@ -1,0 +1,24 @@
+/* pages/extension/extension.wxss */
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .img {
+  height: 739rpx;
+  width: 406rpx;
+  margin: 32rpx 0 92rpx;
+}
+
+.box view {
+  height: 80rpx;
+  width: 500rpx;
+  border-radius: 10rpx;
+  background: #ff8c01;
+  color: #fff;
+  text-align: center;
+  font: 30rpx/80rpx '';
+}

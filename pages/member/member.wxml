@@ -1,0 +1,35 @@
+<!--pages/member/member.wxml-->
+<view class="bg">
+  <view class="txt">
+    <text>VIP套餐</text>
+    <view></view>
+  </view>
+  <view class="tip">
+    <image src="/img/1.jpg" class="icon" />
+    <view class="text">
+      <text class="name">Apple</text>
+      <text class="un">暂未开通</text>
+    </view>
+    <image class="star" />
+  </view>
+</view>
+<view class="meal">
+  <view class="sel">
+    <view class="box" wx:for="{{meal}}" wx:key="index">
+      <text class="price">￥{{item.price}}</text>
+      <text class="month">{{item.month}}个月</text>
+      <text class="vip">{{item.name}}</text>
+    </view>
+  </view>
+  <view class="but">立即购买</view>
+</view>
+<view class="lie"></view>
+<view class="explain">
+  <view class="txt">会员权益说明</view>
+  <view class="tip">
+    <text>1，会员权益说明</text>
+    <text>1，会员权益说明</text>
+    <text>1，会员权益说明</text>
+    <text>1，会员权益说明</text>
+  </view>
+</view>

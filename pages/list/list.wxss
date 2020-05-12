@@ -1,0 +1,184 @@
+/* pages/list/list.wxss */
+page{background:#eaeaea}
+/* 我的推荐 收入明细 已体现 E */
+.lists {
+  height: 130rpx;
+  width: 100%;
+  border-bottom: 2rpx solid #eaeaea;
+  display: flex;
+  align-items: center;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  background:#fff;
+}
+
+.lists image {
+  height: 86rpx;
+  width: 86rpx;
+  border-radius: 50%;
+  margin-right: 35rpx;
+}
+
+.lists view {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists view text:nth-child(1) {
+  font: 30rpx '';
+  color: #333;
+}
+
+.lists view text:nth-child(2) {
+  font: 20rpx '';
+  color: #999;
+  margin-top: 14rpx;
+}
+
+.lists .cash1 {
+  margin-left: auto;
+  font: 28rpx '';
+  color: #f04848;
+}
+/* 我的推荐 收入明细 已体现  */
+
+/* 绑定银行卡 E */
+.tip {
+  font: 20rpx/2 '';
+  color: #999;
+  margin-left: 30rpx;
+}
+
+.bindcard {
+  height: 110rpx;
+  background: #fff;
+  display: flex;
+  padding: 0 29rpx;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 11rpx;
+}
+
+.bindcard text {
+  font: 28rpx '';
+  color: #333;
+}
+
+.bindcard .picker {
+  height: 100%;
+}
+
+.bindcard .picker view {
+  font: 24rpx/110rpx '';
+  color: #999;
+  height: 110rpx;
+}
+
+.bindcard input {
+  height: 100%;
+  text-align: right;
+  font: 24rpx '';
+  color: #999;
+  width: 400rpx;
+}
+
+.margin {
+  margin-bottom: 2rpx;
+}
+/* 绑定银行卡  S*/
+
+/* 余额提现  E*/
+
+.panel {
+  height: 410rpx;
+  width: 682rpx;
+  border-radius: 10rpx;
+  background: #fff;
+  margin: 20rpx auto 0;
+}
+
+.btn {
+  height: 80rpx;
+  width: 500rpx;
+  background: #ff8c01;
+  border-radius: 10rpx;
+  text-align: center;
+  font: 30rpx/80rpx '';
+  color: #fff;
+  margin: 79rpx auto 0;
+}
+
+.card {
+  display: flex;
+  font: 24rpx '';
+  color: #333;
+  padding: 50rpx 29rpx 0;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #eaeaea;
+  height: 153rpx;
+}
+
+.card .bank {
+  display: flex;
+  flex-direction: column;
+  margin-left: 79rpx;
+}
+
+.card .bank .bank_card {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+.card .bank .bank_card image {
+  height: 26rpx;
+  width: 26rpx;
+  margin-right: 14rpx;
+}
+
+.card .bank .txt {
+  font: 20rpx '';
+  color: #999;
+  margin-left: 59rpx;
+}
+
+.cash {
+  height: 147rpx;
+  width: 85%;
+  margin: 0 auto;
+  border-bottom: 2rpx solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+
+.cash .text {
+  font: 24rpx '';
+  margin-top: 40rpx;
+}
+
+.cash .balance {
+  display: flex;
+  align-items: center;
+  font: 48rpx '';
+  color: #333;
+  margin-top: 10rpx;
+}
+
+.cash .balance input {
+  flex: 0.8;
+  height: 70rpx;
+}
+
+.cash .money {
+  display: flex;
+  font: 20rpx '';
+  color: #999;
+  margin-top: 20rpx;
+}
+
+.cash .money view {
+  color: #ff8c01;
+}
+
+/* 余额提现 * S/

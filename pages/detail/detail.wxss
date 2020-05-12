@@ -1,0 +1,105 @@
+/* pages/detail/detail.wxss */
+
+.head {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rpx;
+}
+
+.banner {
+  height: 460rpx;
+  width: 100%;
+  background: #09f;
+}
+
+.main {
+  padding: 0 30rpx 23rpx;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.main .title {
+  font: 600 32rpx/50rpx '';
+  color: #333;
+  margin-top: 20rpx;
+}
+
+.main .price {
+  font: 600 40rpx '';
+  color: #f04848;
+  margin-top: 36rpx;
+}
+
+.main .bot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25rpx;
+}
+
+.main .bot .txt {
+  font: 20rpx '';
+  color: #f18636;
+  margin-left: 10rpx;
+}
+
+.main .bot .look {
+  display: flex;
+  align-items: center;
+}
+
+.main .bot .look image {
+  height: 21rpx;
+  width: 24rpx;
+}
+
+.main .bot .look text {
+  font: 22rpx '';
+  color: 999;
+  margin-left: 11rpx;
+}
+
+.vip {
+  height: 88rpx;
+  background: #fff;
+  display: flex;
+  padding: 0 34rpx;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vip:nth-child(1) {
+  font: 28rpx '';
+  color: #333;
+}
+
+.vip:nth-child(2) {
+  font: 24rpx '';
+  color: #666;
+}
+
+.membeer {
+  background: linear-gradient(to left, #efd8a0, #feefc1);
+  font: 24rpx '';
+  color: #855238;
+  margin: 10rpx 0;
+}
+
+.membeer .free {
+  display: flex;
+}
+
+.membeer .free image {
+  height: 20rpx;
+  width: 10rpx;
+}
+
+.srrvice {
+  height: 100rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 30rpx '';
+  color: #333;
+}

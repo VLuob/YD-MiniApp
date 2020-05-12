@@ -1,0 +1,154 @@
+/* pages/member/member.wxss */
+
+page {
+  background: #fff;
+}
+
+.bg {
+  background: #3e404d;
+  height: 280rpx;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.bg .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg .txt text {
+  font: 30rpx '';
+  color: #f4d9aa;
+  margin: 34rpx 0 20rpx;
+}
+
+.bg .txt view {
+  width: 40rpx;
+  height: 4rpx;
+  background: #f4d9aa;
+  border-radius: 2rpx;
+}
+
+.bg .tip {
+  position: absolute;
+  width: 682rpx;
+  height: 162rpx;
+  border-radius: 10rpx 10rpx 0 0;
+  background: linear-gradient(to left, #e1c7b8, #f9eddd);
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.bg .tip .icon {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+  margin: 0 20rpx 0 50rpx;
+}
+
+.bg .tip .star {
+  margin-left: auto;
+  height: 162rpx;
+  width: 198rpx;
+}
+
+.bg .tip .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg .tip .text .name {
+  font: 600 32rpx '';
+  color: #855238;
+}
+
+.bg .tip .text .un {
+  font: 22rpx '';
+  color: #855238;
+  margin-top: 20rpx;
+}
+
+.lie {
+  height: 10rpx;
+  width: 100%;
+  background: #eaeaea;
+}
+
+.meal {
+  height: 410rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meal .but {
+  height: 90rpx;
+  width: 682rpx;
+  background: linear-gradient(to left, #dbba84, #f6deae);
+  color: #855238;
+  border-radius: 10rpx;
+  text-align: center;
+  font: 30rpx/90rpx '';
+}
+
+.meal .sel {
+  display: flex;
+  justify-content: space-around;
+  margin: 29rpx 0 31rpx;
+  width: 100%;
+}
+
+.meal .sel .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 220rpx;
+  width: 218rpx;
+  border-radius: 10rpx;
+  border: 2rpx solid #f4d9aa;
+  background: #fef7ef;
+}
+
+.meal .sel .box .price {
+  font: 42rpx '';
+  color: #dcae5d;
+}
+
+.meal .sel .box .month {
+  font: 24rpx '';
+  color: #dcae5d;
+  margin: 28rpx 0 19rpx;
+}
+
+.meal .sel .box .vip {
+  font: 600 24rpx '';
+  color: #855238;
+}
+
+.explain {
+  height: 100%;
+  background: #fff;
+  margin-top: 10rpx;
+}
+
+.explain .txt {
+  font: 600 28rpx '';
+  color: #333;
+  margin: 30rpx 0 34rpx 34rpx;
+}
+
+.explain .tip {
+  margin-left: 74rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.explain .tip text {
+  font: 29rpx/2 '';
+  color: #666;
+}

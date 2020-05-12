@@ -1,0 +1,8 @@
+<!--pages/recommend/recommend.wxml-->
+<view class="list">
+  <image src="/img/1.jpg" />
+  <view>
+    <text>Am</text>
+    <text>ID:JUMA52301</text>
+  </view>
+</view>

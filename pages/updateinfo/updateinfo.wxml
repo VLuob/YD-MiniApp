@@ -1,0 +1,35 @@
+<!--pages/updateinfo/updateinfo.wxml-->
+<!-- 昵称 S -->
+<view wx:if="{{to.id==0}}">
+  <input class="ipt" value="{{val}}" />
+  <view class="btn">确定</view>
+</view>
+<!-- 绑定手机号-->
+<view wx:if="{{to.id==1}}">
+  <view class="num">
+    <view class="ch">中国(+86)</view>
+    <view class="line"></view>
+    <input value="{{val}}" placeholder="请输入手机号" class="ipt" />
+  </view>
+  <view class="num">
+    <input value="{{val}}" placeholder="请输入验证码" class="ipt" />
+    <view class="line"></view>
+    <view class="ch color">获取验证码</view>
+  </view>
+  <view class="btn">确定</view>
+</view>
+<!-- 性别 -->
+<view wx:if="{{to.id==2}}">
+  <view class="info" wx:for="{{sex}}" wx:key='index' bindtap="select" data-index="{{index}}">
+    <view class="icon">{{item.sex}}</view>
+    <view class="user">
+      <view class="{{item.checked?'sel active':'sel'}}"></view>
+    </view>
+  </view>
+  <view class="btn">确定</view>
+</view>
+<!-- 地址-->
+<view wx:if="{{to.id==3}}">
+  <input class="ipt" value="{{val}}" />
+  <view class="btn">确定</view>
+</view>

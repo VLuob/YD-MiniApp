@@ -1,0 +1,63 @@
+<view class="swiper">
+  <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color='#FFFFFF' indicator-color='rgba(0, 0, 0, .5)'>
+    <block wx:for-items="{{swiperData}}" wx:key='index'>
+      <swiper-item>
+        <image src="{{item.img}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="ipt">
+    <input value="请输入你需要搜索的名称" />
+    <van-icon name="search" class="sea" />
+  </view>
+</view>
+<view class="grid">
+  <view class="grid_box" wx:for="{{grid}}" wx:key='index' data-grid="{{item}}" bindtap="clickgrid" data-index="{{index}}">
+    <image src="{{item.url}}" />
+    <text>{{item.name}}</text>
+  </view>
+</view>
+<view class="hot">
+  <view class="head">
+    <view class="title">
+      <text></text>
+      <text>热门服务</text>
+    </view>
+    <view class="title">
+      <text>更多</text>
+      <text>></text>
+    </view>
+  </view>
+  <view class="info">
+    <view class="info_list" wx:for="{{info}}" wx:key='index'>
+      <image src="{{item.url}}" class="pic" />
+      <view class="title">重磅福利 | {{item.title}}</view>
+      <view class="bottom">
+        <view class="price">￥{{item.price}}</view>
+        <view class="look">
+          <text>{{item.see}}</text>
+          <image src="" class="icon" src="/img/3.jpg" />
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="hot tea">
+  <view class="head">
+    <view class="title">
+      <text></text>
+      <text>名师专栏</text>
+    </view>
+  </view>
+  <view class="famous">
+    <image class="img" src="/img/1.jpg" />
+    <view class="right">
+      <text class="title">莅临饭大师</text>
+      <text class="name">22 | 33 | 44</text>
+      <view class="look">
+        <image src="/img/3.jpg" class="icon" />
+        <text>1</text>
+      </view>
+    </view>
+  </view>
+</view>

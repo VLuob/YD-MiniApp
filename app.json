@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userinfo/userinfo",
+    "pages/updateinfo/updateinfo",
+    "pages/login/login",
+    "pages/service/service",
+    "pages/income/income",
+    "pages/user/user",
+    "pages/list/list",
+    "pages/learn/learn",
+    "pages/member/member",
+    "pages/order/order",
+    "pages/detail/detail",
+    "pages/qrcodepic/qrcodepic",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF8C01",
+    "navigationBarTitleText": "加载中...",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

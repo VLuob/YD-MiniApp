@@ -1,0 +1,47 @@
+<!--pages/user/user.wxml-->
+<view class="bg">
+  <view class="info">
+    <image class="icon" src="/img/3.jpg" />
+    <view class="name">
+      <text>App</text>
+      <image class="star" src="/img/3.jpg" />
+    </view>
+    <view class="user">普通用户 ID:JIQ12503</view>
+    <view class="tab">
+      <view class="list" bindtap="recommendlist">
+        <image src="/img/2.jpg" />
+        <text>我的推荐</text>
+      </view>
+      <view class="line"></view>
+      <view class="list">
+        <image src="/img/2.jpg" />
+        <text>我的订单</text>
+      </view>
+      <view class="line"></view>
+      <view class="list">
+        <image src="/img/2.jpg" />
+        <text>升级会员</text>
+      </view>
+      <view class="line"></view>
+      <view class="list">
+        <image src="/img/2.jpg" />
+        <text>拜师学艺</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="income">
+  <view class="nav">
+    <view class="txt">我的收入</view>
+    <view class='more'>
+      <text>查看更多</text>
+      <image src="/img/3.jpg" />
+    </view>
+  </view>
+  <view class="box">
+    <view wx:for="{{income}}" wx:key='index'>
+      <text>2.50</text>
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+</view>

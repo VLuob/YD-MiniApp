@@ -1,0 +1,20 @@
+<!--pages/qrcodepic/qrcodepic.wxml-->
+<!-- 推广 S -->
+<view wx:if='{{to.id==0}}'>
+  <view class="box">
+    <image src="{{tempFilePath[0].url}}" class="img" />
+    <view bindtap="saveImageToPhotosAlbum" class="btn">保存到手机</view>
+  </view>
+</view>
+<!--推广 E -->
+
+<!-- 关注我们 S -->
+<view wx:if='{{to.id==1}}'>
+  <view class="box">
+    <image src="{{tempFilePath[0].url}}" class="img1" />
+    <view class="txt">扫码关注易道文化培训公众号</view>
+    <view bindtap="saveImageToPhotosAlbum" class="btn">保存二维码图片</view>
+  </view>
+</view>
+
+<!--关注我们 E -->

@@ -1,0 +1,28 @@
+/* pages/learn/learn.wxss */
+
+page {
+  background: #fff;
+}
+
+.pic {
+  height: 460rpx;
+  width: 100%;
+}
+
+.introduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduce view {
+  font: 600 31rpx/2 '';
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.introduce text {
+  font: 28rpx/2 '';
+  color: #333;
+}

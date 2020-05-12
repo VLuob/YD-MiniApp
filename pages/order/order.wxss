@@ -1,0 +1,53 @@
+/* pages/order/order.wxss */
+
+page {
+  background: #fff;
+}
+
+.order {
+  height: 192rpx;
+  display: flex;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  margin: 20rpx 0;
+}
+
+.order image {
+  height: 192rpx;
+  width: 240rpx;
+  border-radius: 10rpx;
+}
+
+.order .content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+}
+
+.order .content .title {
+  font: 28rpx/50rpx '';
+  color: 333;
+  margin-top: 5rpx;
+}
+
+.order .content .pay {
+  font: 24rpx '';
+  color: #ff8c01;
+  text-align: right;
+}
+
+.order .content .price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22rpx;
+}
+
+.order .content .price .num {
+  font: 24rpx '';
+  color: #f04848;
+}
+
+.order .content .price .time {
+  font: 22rpx '';
+  color: #999;
+}

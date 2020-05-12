@@ -1,0 +1,42 @@
+<!--pages/userinfo/userinfo.wxml-->
+<view class="info">
+  <view class="icon">头像</view>
+  <view class="user">
+    <view>1</view>
+    <image src="/img/1.jpg" />
+  </view>
+</view>
+<view class="info" data-index='1' bindtap="clickto">
+  <view class="icon">昵称</view>
+  <view class="user">
+    <view>1</view>
+    <image src="/img/1.jpg" />
+  </view>
+</view>
+<view class="info" data-index='2' bindtap="clickto">
+  <view class="icon">手机号</view>
+  <view class="user">
+    <view>1</view>
+    <image src="/img/1.jpg" />
+  </view>
+</view>
+<view class="info" data-index='3' bindtap="clickto">
+  <view class="icon">性别</view>
+  <view class="user">
+    <view>1</view>
+    <image src="/img/1.jpg" />
+  </view>
+</view>
+<view class="info" data-index='4' bindtap="clickto">
+  <view class="icon">地址</view>
+  <view class="user">
+    <view>1</view>
+    <image src="/img/1.jpg" />
+  </view>
+</view>
+<view class="info margin">
+  <view class="icon">邀请人</view>
+  <view class="user">
+    <view>Jony ID:yudk52031</view>
+  </view>
+</view>

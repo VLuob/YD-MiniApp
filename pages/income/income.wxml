@@ -1,0 +1,25 @@
+<!--pages/income/income.wxml-->
+<view class="bg">
+  <view>2.0</view>
+  <text>我的余额(元)</text>
+</view>
+<view class="tab">
+  <view class="list">
+    <text>我的推荐</text>
+    <view>12.50</view>
+  </view>
+  <view class="line"></view>
+  <view class="list">
+    <text>我的订单</text>
+    <view>12.50</view>
+  </view>
+  <view class="line"></view>
+  <view class="list">
+    <text>升级会员</text>
+    <view>12.50</view>
+  </view>
+</view>
+<view class="tabto" wx:for="{{list}}" wx:key='index' bindtap="next" data-list="{{item}}" data-index="{{index}}">
+  <view>{{item.title}}</view>
+  <image src="/img/1.jpg" />
+</view>

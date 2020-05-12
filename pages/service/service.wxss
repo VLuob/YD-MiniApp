@@ -1,0 +1,84 @@
+/* pages/service/service.wxss */
+
+page {
+  background: #f6f6f6;
+}
+
+.sliderbar {
+}
+
+.sliderbar .tab {
+  background: #fff;
+  float: left;
+  width: 25%;
+  height: 1000rpx;
+}
+
+.active {
+  background: #f7f7f7;
+}
+
+.sliderbar .tab .tab_list {
+  width: 192rpx;
+  height: 86rpx;
+  border-bottom: 1rpx solid #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderbar .tab .tab_list .line {
+  height: 28rpx;
+  width: 5rpx;
+  background: #f18636;
+}
+
+.sliderbar .tab .tab_list text {
+  font: 26rpx '';
+  color: #666;
+  margin-left: 19rpx;
+}
+
+.sliderbar .content {
+  float: right;
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sliderbar .content .title {
+  margin: 25rpx 0 16rpx 0;
+  font: 28rpx '';
+  color: #333;
+  text-align: center;
+}
+
+.sliderbar .content .box {
+  width: 520rpx;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sliderbar .content .box .shop {
+  width: 150rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20rpx 0;
+}
+
+.sliderbar .content .box .shop image {
+  height: 150rpx;
+  width: 150rpx;
+}
+
+.sliderbar .content .box .shop text {
+  font: 24rpx '';
+  color: #666;
+  margin-top: 26rpx;
+}

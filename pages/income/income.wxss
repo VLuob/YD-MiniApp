@@ -1,0 +1,80 @@
+/* pages/income/income.wxss */
+
+page {
+  background: #fff;
+}
+
+.bg {
+  height: 250rpx;
+  width: 100%;
+  background: #ff8c01;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.bg view {
+  font: 600 34rpx '';
+  margin-bottom: 30rpx;
+}
+
+.bg text {
+  font: 28rpx '';
+}
+
+.tab {
+  height: 154rpx;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0 100rpx;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #eaeaea;
+}
+
+.tab .list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab .line {
+  width: 2rpx;
+  height: 52rpx;
+  background: #eaeaea;
+}
+
+.tab .list view {
+  font: 600 40rpx '';
+  color: #f04848;
+  margin-top: 21rpx;
+}
+
+.tab .list text {
+  font: 24rpx '';
+  color: #333;
+  margin-top: 19rpx;
+}
+
+.tabto {
+  height: 110rpx;
+  border-bottom: 2rpx solid #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+}
+
+.tabto image {
+  height: 20rpx;
+  width: 10rpx;
+}
+
+.tabto view {
+  font: 28rpx '';
+  color: #333;
+}

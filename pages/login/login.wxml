@@ -1,0 +1,18 @@
+<!--pages/login/login.wxml-->
+<view class="bg">
+  <text>请授权绑定手机</text>
+  <view class="phone">
+    <button class="cancel" style="" bindtap="closeChange">取消</button>
+    <button open-type="getUserInfo" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class="login">允许</button>
+  </view>
+</view>
+
+
+<view class="bg" wx:if="{{open}}">
+  <text>为了获得更好的互动体验 </text>
+  <text>请允许微信获取您的昵称和头像</text>
+  <view class="phone">
+    <button class="cancel" bindtap="closeChange">取消</button>
+    <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="login">允许</button>
+  </view>
+</view>
